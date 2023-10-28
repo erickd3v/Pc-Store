@@ -1,34 +1,4 @@
-
-:root {
-    /* Colors */
-    --Border-inputs: rgba(35, 35, 36, 0.302);
-    --Boder-text-input: rgba(0, 0, 0, 0.702);
-    --Border-general: rgba(36, 36, 36, 0.502);
-    --Color-button: rgb(36, 82, 122);
-    --Color-search: rgb(92, 171, 188);
-}
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-main {
-    height: 100%;
-    padding: 14px 15px 0;
-}
-
-.search-bar {
-    border: 1px solid var(--Border-general);
-}
-
-.search {
-    width: 12%;
-    background-color: var(--Color-search);
-    border-radius: 0 1rem 1rem 0;
-    border: none;
-}
+/* body, dynamic */
 
 .text {
     width: 88%;
@@ -36,7 +6,7 @@ main {
     border: none;
 }
 
-.allProducts {
+.products-list {
     justify-items: center;
     gap: 2rem;
 }
