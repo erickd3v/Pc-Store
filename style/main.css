@@ -1,5 +1,9 @@
 /* body, dynamic */
 
+main {
+    padding: 0 15px;
+}
+
 .text {
     width: 88%;
     outline: none;
@@ -30,14 +34,13 @@
 }
 
 .titleProduct {
-    font-size: 13px;
+    font-size: 13.5px;
     margin-bottom: 0 !important;
-    width: 5.6875rem;
-    text-align: left;
+    width: 6rem;
 }
 
 .priceProduct {
-    width: 5.6875rem;
+    width: 6rem;
     border: none;
     background-color: var(--Color-button);
     border-radius: 0.4rem;

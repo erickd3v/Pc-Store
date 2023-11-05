@@ -8,6 +8,10 @@
     --Color-search: rgb(92, 171, 188);
 }
 
+i {
+    color: black;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -16,10 +20,13 @@
 
 body {
     height: 100%;
-    padding: 14px 15px 0;
 }
 
 /* header */
+
+header {
+    padding: 14px 15px 0;
+}
 
 .search-bar {
     border: 1px solid var(--Border-general);
@@ -37,14 +44,9 @@ body {
     border: none;
 }
 
-.logo {
-    width: 224.75px;
+.logo img{
+    width: 195.75px;
     height: 62.58px;
-}
-
-.logo img {
-    width: 100%;
-    height: 100%;
 }
 
 #profile-button, #shop-button {
@@ -52,8 +54,102 @@ body {
     background: transparent;
 }
 
+/* nav mobile */
+
+.header-top {
+    width: 27.41px;
+}
+
+.header-options {
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 127.4%;
+    transition: all 0.5s;
+}
+
+.header-options ul li {
+    height: 3rem;
+    padding: 0.6em 0 0 1rem;
+}
+
+.header-options ul li:hover {
+    cursor: pointer;
+}
+
+.categories, .categories2 {
+    gap: 0.5rem;
+}
+
+/* active */
+.active {
+    display: block !important;
+}
+
+.active2 {
+    height: 18rem !important;
+}
+
+.active2-2 {
+    height: 8rem !important;
+}
+
+.arrow-active {
+    transform: rotateX(180deg);
+}
+
+/* fin active */
+
+.categories-icon {
+    padding-right: 0.5rem;
+}
+
+.categories-sub, .categories-sub2 {
+    display: none;
+}
+
+.categories-sub li:hover, .categories-sub2 li:hover {
+    text-decoration: underline;
+}
+
+.categories-sub li {
+    display: flex;
+    align-items: center;
+}
+
+.menu-button-closed {
+    left: 90%;
+    position: relative;
+    padding: 1rem 0.5rem 1rem 0;
+    font-size: 1.5rem;
+}
+
+.burger {
+    height: 91.5%;
+}
+
+.burger li a {
+    display: flex;
+    gap: 0.6rem;
+}
+
+a:hover {
+    color: black;
+}
+
+.burger li a:hover {
+    color: black;
+    text-decoration: underline;
+}
 
 /* Footer */
+
+footer {
+    background-color: var(--Color-button);
+    padding: 0 0.5em;
+}
 
 .title-footer {
     align-items: center;
@@ -66,10 +162,24 @@ body {
 }
 
 .footer-icon-MyComputer {
-    width: 2.5rem;
-    height: 2,5rem;
+    width: 7.5rem;
+    height: 2.5rem;
 }
 
 .redes-footer a {
     opacity: 1;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
